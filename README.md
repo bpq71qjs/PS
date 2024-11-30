@@ -14,6 +14,7 @@
 | PROBLEM NUMBER | URL |
 | ----- | ----- |
 |11559. Puyo Puyo|[URL](./%EB%B0%B1%EC%A4%80/Gold/11559.%E2%80%85Puyo%E2%80%85Puyo/Puyo%E2%80%85Puyo.cc)|
+|11729. 하노이 탑 이동 순서|[URL](./%EB%B0%B1%EC%A4%80/Gold/11729.%E2%80%85%ED%95%98%EB%85%B8%EC%9D%B4%E2%80%85%ED%83%91%E2%80%85%EC%9D%B4%EB%8F%99%E2%80%85%EC%88%9C%EC%84%9C/README.md)|
 ### 🚀 Silver
 | PROBLEM NUMBER | URL |
 | ----- | ----- |
