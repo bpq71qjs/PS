@@ -58,17 +58,11 @@ int main()
             else if (input[i][j] == 'Y') map[i][j] = Y;
         }
     }
-    
+
+
+    //progress
     while(true)
     {
-        // for(int i = 0; i<12;i++){
-        //     for(int j = 0; j<6;j++){
-        //         printf("%d ",map[i][j]);
-        //     }
-        //     printf("\n");
-        // }
-        // printf("\n\n");
-        
         int flag = 0;
         for(int i = 0; i<12; i++){
             for(int j = 0; j<6;j++){
