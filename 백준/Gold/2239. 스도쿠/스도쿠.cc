@@ -21,17 +21,13 @@ int f(int x, int y)
     for(int num=1;num<=9;num++){
         if(!box_visited[(y+2)/3][(x+2)/3][num] && !width_visited[y][num] && !length_visited[x][num])
         {
-            box_visited[(y+2)/3][(x+2)/3][num] = 1;
-            width_visited[y][num] = 1;
-            length_visited[x][num] = 1;
+            box_visited[(y+2)/3][(x+2)/3][num] = length_visited[x][num] = width_visited[y][num] = 1;
             arr[y][x] = num;
             //track deeper, and no problem,
             if(f(x+1, y)) return true;
 
             //if not,
-            box_visited[(y+2)/3][(x+2)/3][num] = 0;
-            width_visited[y][num] = 0;
-            length_visited[x][num] = 0;
+            box_visited[(y+2)/3][(x+2)/3][num] = length_visited[x][num] = width_visited[y][num] = 0;
             arr[y][x] = 0;
         }
     }
