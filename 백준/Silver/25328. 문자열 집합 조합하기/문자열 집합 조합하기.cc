@@ -6,9 +6,7 @@ using namespace std;
 
 string strings[4];
 string temp;
-string arr[100000];
 int cnt;
-string ans[100000];
 map<string, int> m;
 void f(int step, int k, int index, int start)
 {
